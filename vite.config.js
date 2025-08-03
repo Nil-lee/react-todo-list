@@ -3,6 +3,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/react-todo-list/", // ← 這裡要跟你的 GitHub repo 名字完全一樣！
   plugins: [react()],
+  base: "/react-todo-list/", // 🔥 很重要！一定要改成你的 GitHub repo 名稱
 });
